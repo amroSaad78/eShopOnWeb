@@ -1,4 +1,4 @@
-version: '3.4'
+version: "3.4"
 
 services:
   eshopwebmvc:
@@ -20,6 +20,5 @@ services:
     ports:
       - "1433:1433"
     environment:
-      - SA_PASSWORD=@someThingComplicated1234
+      - SA_PASSWORD=@passWord1234
       - ACCEPT_EULA=Y
-
